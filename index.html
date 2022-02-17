@@ -34,7 +34,8 @@
                             <table class="mx-auto">
                                 <tr>
                                     <td class="text-end">Income:</td>
-                                    <td><input type="text" id="income" class="border border-0 ms-3" value="10000"></td>
+                                    <td><input type="text" id="income" 
+                                        class="border border-0 ms-1" value="10000"></td>
                                 </tr>
                             </table>
                             <!-- expense part -->
@@ -43,20 +44,23 @@
                                 <table class="mx-auto">
                                     <tr>
                                         <td class="text-end">Food:</td>
-                                        <td><input type="text" id="food-cost" value="" class="my-2 ms-3"></td>
+                                        <td><input type="text" id="food-cost" value="" 
+                                            class="my-2 ms-1"></td>
                                     </tr>
                                     <tr>
                                         <td class="text-end">Rent:</td>
-                                        <td><input type="text" id="rent-cost" value="" class="my-2 ms-3"></td>
+                                        <td><input type="text" id="rent-cost" value="" 
+                                            class="my-2 ms-1"></td>
                                     </tr>
                                     <tr>
                                         <td class="text-end">Clothes:</td>
-                                        <td><input type="text" id="cloth-cost" value="" class="my-2 ms-3"></td>
+                                        <td><input type="text" id="cloth-cost" value="" 
+                                            class="my-2 ms-1"></td>
                                     </tr>
                                 </table>
                                 <!-- error message -->
                                 <h6 class="my-3 text-center text-danger error-message"  id="error-message">
-                                    Please enter a valid input*</h6>
+                                    Please enter valid input*</h6>
                                 <!-- calculation button -->
                                 <div class="text-center my-3"><button class="border border-0 fw-bold bg-info 
                                     text-white px-4 py-2 rounded" id="expense">Calculate</button></div>
@@ -78,7 +82,7 @@
                                 bg-info text-white rounded my-4" id="save">Save</button>
                                 <!-- error message -->
                                 <h6 class="my-3 text-center text-danger error-message"  
-                                id="error-msg">You do not have enough balance to saving*</h6>
+                                id="error-msg">Do not have enough balance to saving*</h6>
                                 <h6 class="text-center">Saving Amount: <span id="save-amount">0</span></h6>
                                 <h6 class="text-center">Remaining Balance: <span id="remaining-balance">0</span></h6>
                             </div>
@@ -87,7 +91,9 @@
                 </div>
             </section>
         </main>
+        
         <!-- js file attached -->
+        <script src="js/app.js"></script>
         <script src="js/bootstrap.bundle.min.js"></script>
     </body>
 </html>
