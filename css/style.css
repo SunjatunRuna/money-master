@@ -10,14 +10,14 @@ body{
 /********************
     input style
     **************************/
-/* input{
+input{
     outline: none !important;
     border: none;
     padding-left: 10px;
-} */
+}
 /******************
     error message
     ***************************/
-/* .error-message{
+.error-message{
     display: none;
-} */
+}
