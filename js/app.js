@@ -2,7 +2,7 @@
 function monthlyCost(sector){
     const costText = document.getElementById(sector + '-cost');
     const costAmount = parseFloat(costText.value);
-    if(costAmount > 0){
+    if((costAmount > 0) && (costAmount != isNaN)){
         return costAmount;
     }
     else{
