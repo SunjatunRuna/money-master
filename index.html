@@ -30,27 +30,27 @@
                     <div class="col-lg-5 col-sm-12">
                         <div class="p-3 border border-0 bg-light">
                             <!-- income part -->
-                            <div class="text-center">
-                                <h4>Income</h4>
-                                <div>
-                                    <label for="income" class="pe-3"><h6>Income:</h6></label>
-                                    <input type="text" id="income" class="border border-0" value="10000"> 
-                                </div>
-                            </div>
+                            <h4 class="text-center my-3">Income</h4>
+                            <table class="mx-auto">
+                                <tr>
+                                    <td class="text-end">Income:</td>
+                                    <td><input type="text" id="income" class="border border-0 ms-3" value="10000"></td>
+                                </tr>
+                            </table>
                             <!-- expense part -->
                             <div>
-                                <h4 class="my-2 text-center">Expense</h4>
+                                <h4 class="my-3 text-center">Expense</h4>
                                 <table class="mx-auto">
                                     <tr>
-                                        <td class="text-end">Food: </td>
+                                        <td class="text-end">Food:</td>
                                         <td><input type="text" id="food-cost" value="" class="my-2 ms-3"></td>
                                     </tr>
                                     <tr>
-                                        <td class="text-end">Rent: </td>
+                                        <td class="text-end">Rent:</td>
                                         <td><input type="text" id="rent-cost" value="" class="my-2 ms-3"></td>
                                     </tr>
                                     <tr>
-                                        <td class="text-end">Clothes: </td>
+                                        <td class="text-end">Clothes:</td>
                                         <td><input type="text" id="cloth-cost" value="" class="my-2 ms-3"></td>
                                     </tr>
                                 </table>
@@ -69,13 +69,13 @@
                                 <span id="total-expense">0</span></h6>
                             <h6 class="text-center">Balance: <span id="balance">0</span></h6>
                             <!-- saving amount -->
-                            <div class="text-center my-4">
-                                <label for="save" class="me-3"><h6>Save:</h6></label>
-                                <input type="text" value="" class="py-2 ps-0 text-center" 
+                            <div class="text-center">
+                                <label for="save" class="me-3 my-4"><h6>Save:</h6></label>
+                                <input type="text" value="" class="my-4 py-2 ps-0 text-center" 
                                 id="save-input" style="width: 100px;">
-                                <span class="mx-4 fw-bold">%</span>
+                                <span class="mx-4 fw-bold my-4">%</span>
                                 <button class="py-2 px-3 mb-4 border border-0 fw-bold 
-                                bg-info text-white rounded" id="save">Save</button>
+                                bg-info text-white rounded my-4" id="save">Save</button>
                                 <!-- error message -->
                                 <h6 class="my-3 text-center text-danger error-message"  
                                 id="error-msg">You do not have enough balance to saving*</h6>
